@@ -1,0 +1,29 @@
+{
+    "en": {
+      "GreatExp": "Great experience",
+      "Since2018": "Since 2018 to the present day, I am deeply involved in software refinement and WEB development.",
+      "Projects": "Projects",
+      "Completed": "Completed",
+      "YearsExp": "years of experience",
+      "Remaining": "Remaining",
+      "InProgress": "In progress"
+    },
+    "de": {
+      "GreatExp": "Großartige Erfahrung",
+      "Since2018": "Seit 2018 bis heute bin ich intensiv in die Softwareverfeinerung und WEB-Entwicklung involviert.",
+      "Projects": "Projekte",
+      "Completed": "Abgeschlossen",
+      "YearsExp": "jahre Erfahrung",
+      "Remaining": "Verbleibend",
+      "InProgress": "In Bearbeitung"
+    },
+    "pl": {
+      "GreatExp": "Świetne doświadczenie",
+      "Since2018": "Od 2018 roku do dziś jestem głęboko zaangażowany w doskonalenie oprogramowania i rozwój aplikacji webowych.",
+      "Projects": "Projekty",
+      "Completed": "Ukończone",
+      "YearsExp": "lat doświadczenia",
+      "Remaining": "Pozostałe",
+      "InProgress": "W toku"
+    }
+  }

@@ -1,0 +1,36 @@
+.card {
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .title {
+    font-family:
+      Greycliff CF,
+      sans-serif;
+    font-weight: 900;
+    color: white;
+    line-height: 1.2;
+    font-size: rem(32px);
+    margin-top: var(--mantine-spacing-xs);
+    backdrop-filter: blur(10px);
+  }
+  
+  .category {
+    background-color: var(--brand-orange);
+    padding: 2px;
+    border-radius: 5px;
+    width: min-content;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .container {
+    display: flex;
+    padding: 120px 0;
+    justify-content: center;
+  }

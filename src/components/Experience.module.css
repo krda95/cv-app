@@ -1,0 +1,23 @@
+.wrapper {
+    padding: 120px 60px;
+    margin: 0;
+
+  }
+  
+  .title {
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    font-size: rem(36px);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: var(--mantine-spacing-md);
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+  }

@@ -1,7 +1,18 @@
 .screen {
-    position: relative;
+    /* background-size: cover;
+    background-position: center;
     height: 100vh;
-}
+    max-height: 100vh;
+    overflow: hidden; */
+    position:fixed;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    background-size: 100% 100%;   /* Stretch the image to fit both width and height */
+    height: 100vh;                /* Set the height to 100% of the viewport height */
+    width: 100vw;                 /* Set the width to 100% of the viewport width */
+    overflow: hidden;             /* Prevent overflow */
+  }
+  
 
 .screen::before {
     content: '';
@@ -10,7 +21,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
   .screen > * {
@@ -23,11 +34,16 @@
     flex-direction: column;
     height: 100%;
     justify-content: center;
+    posi
 
     * {
         color: beige;
         font-size: 1.5rem;
     }
+}
+
+.name {
+    overflow-wrap: break-word;
 }
 
 .name, .dot {
@@ -41,6 +57,11 @@
 
 .skills {
     font-style: italic;
+    color: var(--mantine-color-gray-5)
+}
+
+.title {
+    color: var(--mantine-color-gray-3)
 }
 
 .name-container {
@@ -55,4 +76,11 @@
     text-decoration: none;
     color: unset;
     font-size: 2rem;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 120px 60px;
 }

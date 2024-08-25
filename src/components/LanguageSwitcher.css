@@ -1,0 +1,8 @@
+.mantine-Popover-dropdown {
+    padding: 0;
+    width: 120px !important;
+
+    * {
+        cursor: pointer;
+    }
+  }
